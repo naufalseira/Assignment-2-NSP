@@ -56,7 +56,7 @@ func main() {
 	mux.HandleFunc("/sendFile", middleware(http.MethodPost, sendFileHandler))
 
 	server := http.Server{
-		Addr: ":8080",
+		Addr: "localhost:9876",
 		Handler: mux,
 	}
 
