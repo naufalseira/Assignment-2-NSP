@@ -9,4 +9,4 @@ WORKDIR /goproject/Assignment-2-NSP/app
 
 ENV PORT=8080
 
-RUN go run server.go
+RUN go run server.go
